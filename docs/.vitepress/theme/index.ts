@@ -5,6 +5,7 @@
  * @since  2024.03.09-18:21:38
  */
 
+import 'iconify-icon';
 import DefaultTheme from 'vitepress/theme-without-fonts';
 import Layout from './Layout.vue';
 import './custom.css';

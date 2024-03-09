@@ -9,9 +9,9 @@ import { defineConfig } from 'vitepress';
 import themeConfig from './config/themeConfig';
 
 const config = defineConfig({
-  cleanUrls: true,
+  cleanUrls: false,
   description: 'Docs',
-  head: [['link', { rel: 'icon', href: '/logo.png' }]],
+  head: [['link', { rel: 'icon', href: '/vitepress-logo-large.webp' }]],
   lang: 'zh-CN',
   lastUpdated: true,
   outDir: '../dist',
@@ -21,9 +21,9 @@ const config = defineConfig({
     server: {
       host: '0.0.0.0',
       port: 5173,
+      cors: true,
     },
   },
 });
 
 export default config;
-

@@ -1,16 +1,26 @@
 {
-  "name": "demo_vitepress",
-  "version": "1.0.0",
-  "description": "",
+  "name": "template_vitepress",
+  "version": "0.1.0",
+  "description": "a vitepress template project",
+  "private": true,
   "type": "module",
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "vitepress",
+    "vue3"
+  ],
+  "author": "KeeneChen",
+  "homepage": "https://github.com/KeeneChen/template_vitepress",
+  "license": "MIT",
+  "packageManager": "pnpm@8.9.0",
+  "engines": {
+    "node": ">=18.18.0",
+    "pnpm": ">=8.9.0"
+  },
   "devDependencies": {
     "vitepress": "1.0.0-rc.45",
     "vue": "^3.4.21"
