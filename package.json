@@ -16,13 +16,12 @@
   "author": "KeeneChen",
   "homepage": "https://github.com/KeeneChen/template_vitepress",
   "license": "MIT",
-  "packageManager": "pnpm@8.9.0",
   "engines": {
     "node": ">18.0.0",
     "pnpm": ">8.9.0"
   },
   "devDependencies": {
     "vitepress": "1.0.0-rc.45",
-    "vue": "^3.4.21"
+    "vue": "^3.4.25"
   }
 }
